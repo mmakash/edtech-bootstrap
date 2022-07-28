@@ -1,6 +1,26 @@
 .photo{
     filter: brightness(60%);
+    max-width: 100%;
+    height: auto;
 }
 .explore-section{
     background-color: #F4FAFD;
+}
+@media screen and (max-width:767px) {
+    .photo{
+        height: 394px;
+    }
+    .carousel-inner h1.text-white{
+        font-size: 25px;
+    }
+    .carousel-inner p.text-white{
+        font-size: 13px;
+    }
+    .carousel-inner button{
+        width: 25px;
+    }
+    .read-more-btn{
+        color: red;
+    }
+   
 }
