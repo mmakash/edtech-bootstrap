@@ -19,5 +19,23 @@
     .carousel-inner button{
         width: 25px;
     }
+    .read-more-container{
+        position: relative;
+    }
+    .read-more-container .read-more-btn{
+        position: absolute;
+        right: 30%;
+        bottom: 5%;
+    }
    
+}
+@media screen and (min-width:767px) and (max-width:1024px){
+    .read-more-container{
+        position: relative;
+    }
+    .read-more-container .read-more-btn{
+        position: absolute;
+        right: 40%;
+        bottom: 3%;
+    }
 }
